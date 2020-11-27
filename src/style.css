@@ -1,0 +1,89 @@
+body {
+padding: 10px;
+}
+
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.box14{
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #f800a552;
+    box-shadow: 0px 0px 0px 10px #e946e1;
+    border: dashed 2px white;
+}
+.box14 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box2 {
+border: 1px solid transparent;
+}
+
+
+.btn--raised {
+    color: #eb6877;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .44), 1px 1px 1px #4a0a11;
+}
+
+.btn--pink {
+  color: #fff;
+  background: #f800a552;
+  border-bottom: 5px solid #e20ebfd9;
+}
+
+.btn--pink2 {
+  color: rgb(253, 97, 240);
+  background: #ffffff;
+  border-bottom: 5px solid #e20ebfd9;
+}
+
+.btn--pink:active {
+  margin-top: 3px;
+  color: #ffffff;
+  background:#d01491;
+  border-bottom: 2px solid #a5097e;
+}
+
+.btn--pink2:active {
+  margin-top: 3px;
+  color: #ffffff;
+  background:#f800a552;
+  border-bottom: 2px solid #e20ebfd9;
+}
+
+.item-selected {
+color: white;
+background: #ee8e0f;
+line-height: 1.5;
+padding: 0.5em 0.5em 0.5em 2em;
+border-bottom: 2px solid white;
+list-style-type: none !important;
+font-weight: bold;
+}
+
+.number {
+color: palevioletred;
+font-size: 1em;
+}
+
